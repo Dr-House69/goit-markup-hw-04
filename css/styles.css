@@ -87,8 +87,11 @@ body {
 }
 .contact {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 0;
+}
+.mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .menu-list {
@@ -100,6 +103,7 @@ body {
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .menu-link {
   display: block;
   font-weight: 500;
@@ -125,6 +129,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   padding: 32px 0;
+}
+.adr-link {
+  display: inline-flex;
+  color: var(--second-text-color);
+  align-items: center;
 }
 .mail-link:hover,
 .mail-link:focus {
