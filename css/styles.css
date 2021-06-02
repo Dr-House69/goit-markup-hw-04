@@ -322,7 +322,68 @@ body {
   color: var(--third-text-color);
   background-color: var(--accent-color);
 }
-/* ==PORTFOLIO== */
+/* == CLIENTS==*/
+.section-clients-title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--main-text-color);
+  width: 100%;
+  margin: 0 0 50px 0;
+}
+
+.clients-list {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  margin-right: calc(-1 * var(--main-margin));
+  margin-bottom: calc(-1 * var(--main-margin));
+}
+
+.clients-item {
+  box-sizing: border-box;
+  background-color: var(--body-background-color);
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  color: var(--social-link-color);
+
+  flex-basis: calc(100% / 6 - var(--main-margin));
+  border-radius: 4px;
+
+  margin-right: var(--main-margin);
+  margin-bottom: var(--main-margin);
+}
+
+.company-icon {
+  fill: currentColor;
+}
+
+.clients-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: currentColor;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  width: 100%;
+  height: 92px;
+}
+
+.clients-item-link:focus,
+.clients-item-link:active,
+.clients-item:focus,
+.clients-item:active,
+.clients-item:hover {
+  color: var(--accent-color);
+}
+
+/*===PORTFOLIO=== */
 
 /* ===FILTER=== */
 
